@@ -105,7 +105,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true }))
 
 const corsOptions = {
-  origin: ["https://arogyapaths.netlify.app", "http://localhost:5173"],
+  origin: ["https://arogyapaths.netlify.app", "http://localhost:5173","https://arogyasetuu.netlify.app"],
   credentials: true,
   methods: ["GET", "PUT", "PATCH", "POST", "DELETE"],
 };
